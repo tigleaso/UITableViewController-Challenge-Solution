@@ -1,5 +1,5 @@
 //
-//  TayViewController.h
+//  TayChallenge Solution.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Tim Gleason on 4/23/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TayViewController : UIViewController
+@interface TayChallenge_Solution : UITableViewController
 
 @end
