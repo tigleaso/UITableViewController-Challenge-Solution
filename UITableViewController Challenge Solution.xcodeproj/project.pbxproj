@@ -14,13 +14,13 @@
 		3BE0DB051908B97500FC75D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0DB041908B97500FC75D8 /* main.m */; };
 		3BE0DB091908B97500FC75D8 /* TayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0DB081908B97500FC75D8 /* TayAppDelegate.m */; };
 		3BE0DB0C1908B97500FC75D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE0DB0A1908B97500FC75D8 /* Main.storyboard */; };
-		3BE0DB0F1908B97500FC75D8 /* TayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0DB0E1908B97500FC75D8 /* TayViewController.m */; };
 		3BE0DB111908B97500FC75D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE0DB101908B97500FC75D8 /* Images.xcassets */; };
 		3BE0DB181908B97500FC75D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE0DB171908B97500FC75D8 /* XCTest.framework */; };
 		3BE0DB191908B97500FC75D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE0DAF81908B97500FC75D8 /* Foundation.framework */; };
 		3BE0DB1A1908B97500FC75D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE0DAFC1908B97500FC75D8 /* UIKit.framework */; };
 		3BE0DB221908B97500FC75D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BE0DB201908B97500FC75D8 /* InfoPlist.strings */; };
 		3BE0DB241908B97500FC75D8 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0DB231908B97500FC75D8 /* UITableViewController_Challenge_SolutionTests.m */; };
+		3BE0DB2F1908BBF400FC75D8 /* TayChallenge Solution.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0DB2E1908BBF400FC75D8 /* TayChallenge Solution.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		3BE0DB071908B97500FC75D8 /* TayAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TayAppDelegate.h; sourceTree = "<group>"; };
 		3BE0DB081908B97500FC75D8 /* TayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TayAppDelegate.m; sourceTree = "<group>"; };
 		3BE0DB0B1908B97500FC75D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3BE0DB0D1908B97500FC75D8 /* TayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TayViewController.h; sourceTree = "<group>"; };
-		3BE0DB0E1908B97500FC75D8 /* TayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TayViewController.m; sourceTree = "<group>"; };
 		3BE0DB101908B97500FC75D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3BE0DB161908B97500FC75D8 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE0DB171908B97500FC75D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3BE0DB1F1908B97500FC75D8 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		3BE0DB211908B97500FC75D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3BE0DB231908B97500FC75D8 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		3BE0DB2D1908BBF400FC75D8 /* TayChallenge Solution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TayChallenge Solution.h"; sourceTree = "<group>"; };
+		3BE0DB2E1908BBF400FC75D8 /* TayChallenge Solution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TayChallenge Solution.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +112,9 @@
 		3BE0DAFE1908B97500FC75D8 /* UITableViewController Challenge Solution */ = {
 			isa = PBXGroup;
 			children = (
-				3BE0DB071908B97500FC75D8 /* TayAppDelegate.h */,
-				3BE0DB081908B97500FC75D8 /* TayAppDelegate.m */,
 				3BE0DB0A1908B97500FC75D8 /* Main.storyboard */,
-				3BE0DB0D1908B97500FC75D8 /* TayViewController.h */,
-				3BE0DB0E1908B97500FC75D8 /* TayViewController.m */,
+				3BE0DB2D1908BBF400FC75D8 /* TayChallenge Solution.h */,
+				3BE0DB2E1908BBF400FC75D8 /* TayChallenge Solution.m */,
 				3BE0DB101908B97500FC75D8 /* Images.xcassets */,
 				3BE0DAFF1908B97500FC75D8 /* Supporting Files */,
 			);
@@ -129,6 +127,8 @@
 				3BE0DB001908B97500FC75D8 /* UITableViewController Challenge Solution-Info.plist */,
 				3BE0DB011908B97500FC75D8 /* InfoPlist.strings */,
 				3BE0DB041908B97500FC75D8 /* main.m */,
+				3BE0DB071908B97500FC75D8 /* TayAppDelegate.h */,
+				3BE0DB081908B97500FC75D8 /* TayAppDelegate.m */,
 				3BE0DB061908B97500FC75D8 /* UITableViewController Challenge Solution-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BE0DB0F1908B97500FC75D8 /* TayViewController.m in Sources */,
+				3BE0DB2F1908BBF400FC75D8 /* TayChallenge Solution.m in Sources */,
 				3BE0DB051908B97500FC75D8 /* main.m in Sources */,
 				3BE0DB091908B97500FC75D8 /* TayAppDelegate.m in Sources */,
 			);

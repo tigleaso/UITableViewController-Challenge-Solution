@@ -46,26 +46,61 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    if (section == 0)
+    {
+        return 2;
+    }
+    else if (section == 1)
+    {
+        return 1;
+    }
+    else
+    {
+        return 3;
+    }
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    
+    static NSString *CellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
+    cell.textLabel.text = @"Woh";
     
+    if (indexPath.section == 0)
+    {
+        cell.textLabel.text = @"I am in section 0";
+        cell.backgroundColor = [UIColor redColor];
+    }
+    else if (indexPath.section == 1)
+    {
+        cell.textLabel.text = @"another section";
+        cell.backgroundColor = [UIColor blueColor];
+    }
+    else
+    {
+        cell.textLabel.text = [NSString stringWithFormat:@"Row: %i", indexPath.row];
+        cell.backgroundColor = [UIColor yellowColor];
+        
+    }
     return cell;
+    
+    
+    // Section 1's cells should display the text "I am in section 0".
+    // Section 2's cells should display "another section".
+    // Section 3's cells should display the word cell and the current row number.  Use the format string and the pass in NSIndexPath's property row.
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
